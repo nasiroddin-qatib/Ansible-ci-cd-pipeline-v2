@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.success {
+    background: #16a34a;
+}
+
+.info {
+    background: #2563eb;
+}
+
+.warning {
+    background: #f59e0b;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background: #22c55e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
